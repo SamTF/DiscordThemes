@@ -42,6 +42,8 @@
 	--fontwhite2: 					210,210,210;
 	--fontwhite3: 					170,170,170;
 	--fontwhite4: 					120,120,120;
+	
+	--customFont: 'Montserrat';
 }
 
 .theme-light, .theme-dark {
@@ -6222,4 +6224,9 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-19_DXt >
 	right: 0 !important;
 	transform: unset !important;
 	animation: unset !important;
+}
+
+::-webkit-input-placeholder,
+body:not([class*=hljs]):not(code):not([class*=ace_]) {
+    font-family: var(--customFont)!important
 }
