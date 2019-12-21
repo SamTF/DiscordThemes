@@ -541,7 +541,8 @@ body:before {
 
 .icon-3BcwQu,												/* voicechat			icon								*/
 .username-lm8y6T {											/* voicechat			username							*/
-	color: rgb(var(--fontwhite3));
+    color: rgb(var(--fontwhite3));
+    font-weight: 700;
 }
 .listDefault-2y5Z9D .clickable-23RaYz:hover .username-lm8y6T {
 	color: rgb(var(--fontwhite2));
@@ -598,6 +599,7 @@ body:before {
 .channel-2QD9_O .linkButtonIcon-Mlm5d6 {
 	color: rgb(var(--fontwhite2));
 }
+/* MAKES THE USERNAMES IN THE FRIENDS LIST BOLD */
 .channel-2QD9_O .name-uJV0GL {
     color: rgb(var(--fontwhite2));
     /* TEST */
