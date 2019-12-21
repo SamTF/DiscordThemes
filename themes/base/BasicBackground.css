@@ -844,7 +844,8 @@ body:before {
 	color: rgb(var(--fontwhite3));
 }
 .username-_4ZSMR {											/* header				username							*/
-	color: rgb(var(--fontwhite1));
+    color: rgb(var(--fontwhite1));
+    font-weight: 700;
 }
 .timestampCozy-2hLAPV {										/* header				timestampcozy						*/
 	color: rgb(var(--fontwhite4));
@@ -4234,9 +4235,7 @@ body:before {
 /* ----		16.1.	TEXT							---- */
 
 .username-3gJmXY {
-    /* color: rgb(var(--fontwhite1)); */
-    color: rgb(220,20,60);
-    font-weight: 700;
+	color: rgb(var(--fontwhite1));
 }
 .discriminator-uTZ08z {
 	color: rgb(var(--fontwhite3));
