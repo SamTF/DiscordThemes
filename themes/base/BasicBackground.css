@@ -1232,8 +1232,10 @@ body:before {
 .selected-aXhQR6.member-3-YXUe .layout-2DM8Md svg {
 	filter: drop-shadow(1px 1px var(--vtextshadow));
 }
+/* THIS IS THE NAME OF USERS IN THE MEMBER LIST (Like the Online list) */
 .member-3-YXUe .name-uJV0GL {
-	color: rgb(220,20,60);
+	/* color: rgb(220,20,60); */
+	color: rgb(var(--fontwhite2));
 	font-weight: 700;
 }
 .member-3-YXUe .activity-2Gy-9S {
