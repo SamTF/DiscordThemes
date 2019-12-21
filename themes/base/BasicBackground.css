@@ -1,14 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ThemeDevBadge.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
-.buttonContainer-KtQ8wc,
-.markup-2BOw-j code,
-.theme-dark .markup-2BOw-j {
-    position: relative
-}
+
 
 :root {
-	--customFont: 'Montserrat';
+	--customFont: 'Montserrat';		/* Custom fonts using Goolge Fonts */
 	--dtransparencyalpha:			0,0,0;
 	--dgeneraltransparency:			0.15;
 	--dmessagetransparency:			0.5;
@@ -18,6 +14,7 @@
 	
 	--dtextshadow:					transparent;
 	
+	--HomeButtonImg: url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/homeBtn.png);
 	--dbackground:					url(https://mwittrien.github.io/BetterDiscordAddons/ThemesV2/BasicBackground/background.jpg);
 	--dbackgroundsize:				cover;
 	--dblur:						0px;
@@ -6231,7 +6228,27 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-19_DXt >
 	animation: unset !important;
 }
 
+/* ############################## */
+/* SHIT I ADDED */
+/* ############################## */
+
+/* Used to get custom fonts*/
 ::-webkit-input-placeholder,
 body:not([class*=hljs]):not(code):not([class*=ace_]) {
     font-family: var(--customFont)!important
+}
+
+/* Custom Home Button */
+.button-OhfaWu {
+    background-color: transparent!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--HomeButtonImg)!important
+}
+.wrapper-1BJsBx[aria-label=Home] {
+    background-image: var(--HomeButtonImg)!important;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent!important
 }
