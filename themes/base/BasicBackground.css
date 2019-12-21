@@ -14,7 +14,6 @@
 	
 	--dtextshadow:					transparent;
 	
-	--HomeButtonImg: url(https://raw.githubusercontent.com/codedotspectra/themes/master/neutron/import/homeBtn.png); /* Custom Home Button */
 	--dbackground:					url(https://mwittrien.github.io/BetterDiscordAddons/ThemesV2/BasicBackground/background.jpg);
 	--dbackgroundsize:				cover;
 	--dblur:						0px;
@@ -1234,7 +1233,8 @@ body:before {
 	filter: drop-shadow(1px 1px var(--vtextshadow));
 }
 .member-3-YXUe .name-uJV0GL {
-	color: rgb(var(--fontwhite2));
+	color: rgb(220,20,60);
+	font-weight: 700;
 }
 .member-3-YXUe .activity-2Gy-9S {
 	color: rgb(var(--fontwhite3));
@@ -6239,6 +6239,8 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
 }
 
 /* Custom Home Button */
+/* Currently not entirely working: it adds the new button but doesn't hide the old one; not sure why */
+/*
 .circleIconButton-jET_ig,
 .container-1ETFDs,
 .container-2td-dC,
@@ -6266,3 +6268,4 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
 .wrapper-1BJsBx[aria-label=Home]>* {
     display: none
 }
+*/
