@@ -6239,6 +6239,17 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
 }
 
 /* Custom Home Button */
+.circleIconButton-jET_ig,
+.container-1ETFDs,
+.container-2td-dC,
+.homeButton-2Cw51C,
+.iconSizeLarge-161qtT,
+.wrapper-2lTRaf,
+.wrapper-2lTRaf a {
+    height: 50px!important;
+    width: 50px!important
+}
+
 .button-OhfaWu {
     background-color: transparent!important;
     background-repeat: no-repeat;
@@ -6251,4 +6262,7 @@ body:not([class*=hljs]):not(code):not([class*=ace_]) {
     background-position: center;
     background-size: cover;
     background-color: transparent!important
+}
+.wrapper-1BJsBx[aria-label=Home]>* {
+    display: none
 }
