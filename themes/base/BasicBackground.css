@@ -1240,7 +1240,7 @@ body:before {
 /* THIS IS THE NAME OF USERS IN THE MEMBER LIST (Like the Online list) */
 .member-3-YXUe .name-uJV0GL {
 	color: rgb(var(--fontwhite2));
-	/* font-weight: 700; */
+	font-weight: 700;
 }
 .member-3-YXUe .activity-2Gy-9S {
 	color: rgb(var(--fontwhite3));
