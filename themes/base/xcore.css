@@ -1233,13 +1233,13 @@ svg[name=Nitro] path {
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G {
-    background-color: var(--NTBackgroundColor04);
-    border-color: rgba(0, 0, 0, .15)
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3), 0 -5px 5px rgba(0, 0, 0, .3);
+    background-color: var(--PrimaryColor01)
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
-    box-shadow: none;
-    background-color: transparent
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3), 0 -5px 5px rgba(0, 0, 0, .3);
+    background-color: var(--PrimaryColor01)
 }
 
 .theme-dark .jumpButton-3DTcS_ {
