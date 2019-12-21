@@ -4234,7 +4234,9 @@ body:before {
 /* ----		16.1.	TEXT							---- */
 
 .username-3gJmXY {
-	color: rgb(var(--fontwhite1));
+    /* color: rgb(var(--fontwhite1)); */
+    color: rgb(220,20,60);
+    font-weight: 700;
 }
 .discriminator-uTZ08z {
 	color: rgb(var(--fontwhite3));
