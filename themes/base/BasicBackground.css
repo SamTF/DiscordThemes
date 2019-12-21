@@ -599,7 +599,9 @@ body:before {
 	color: rgb(var(--fontwhite2));
 }
 .channel-2QD9_O .name-uJV0GL {
-	color: rgb(var(--fontwhite2));
+    color: rgb(var(--fontwhite2));
+    /* TEST */
+    font-weight: 700;
 }
 .channel-2QD9_O .subtext-1RtU34 {
 	color: rgb(var(--fontwhite3));
@@ -844,8 +846,7 @@ body:before {
 	color: rgb(var(--fontwhite3));
 }
 .username-_4ZSMR {											/* header				username							*/
-    /* color: rgb(var(--fontwhite1)); */
-    color: rbg(220,20,60);
+    color: rgb(var(--fontwhite1));
     font-weight: 700;
 }
 .timestampCozy-2hLAPV {										/* header				timestampcozy						*/
@@ -4236,7 +4237,8 @@ body:before {
 /* ----		16.1.	TEXT							---- */
 
 .username-3gJmXY {
-	color: rgb(var(--fontwhite1));
+    color: rgb(220,20,60);
+    font-weight: 700;
 }
 .discriminator-uTZ08z {
 	color: rgb(var(--fontwhite3));
