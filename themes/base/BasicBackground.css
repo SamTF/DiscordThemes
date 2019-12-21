@@ -1,8 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ThemeDevBadge.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+.buttonContainer-KtQ8wc,
+.markup-2BOw-j code,
+.theme-dark .markup-2BOw-j {
+    position: relative
+}
 
 :root {
+	--customFont: 'Montserrat';
 	--dtransparencyalpha:			0,0,0;
 	--dgeneraltransparency:			0.15;
 	--dmessagetransparency:			0.5;
@@ -43,8 +49,6 @@
 	--fontwhite2: 					210,210,210;
 	--fontwhite3: 					170,170,170;
 	--fontwhite4: 					120,120,120;
-	
-	--customFont: 'Montserrat';
 }
 
 .theme-light, .theme-dark {
