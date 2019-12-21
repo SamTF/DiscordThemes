@@ -1,9 +1,0 @@
-//META{"name":"testing shit out","description":"Changes the guilds background to red","author":"me :)","version":"1.0"}*//
-
-.guilds {
-	background:red;
-}
-
-.theme-dark .chat>.content .messages .message-group .comment .markup{
-	color:orange;
-}
