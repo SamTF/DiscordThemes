@@ -1,0 +1,24 @@
+//META{"name":"Fishies Basic","description":"Simpler Fishies","author":"me :)","version":"0.1b"}*//
+
+@import url('https://samtf.github.io/DiscordThemes/themes/base/BasicBackground.css');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+:root {
+	--customFont: 'Quicksand';
+    --transparencycolor: 0,0,0;		/* default: 0,0,0 */
+    --transparencyalpha: 0.15;		/* default: 0.15 */
+    --messagetransparency: 0.0;		/* default: 0.5 */
+    --guildchanneltransparency: 0.75;	/* default: 0.15 (additional darkness for guild/channel list can be changed in case a bright background makes the list hard to read) */
+    --memberlistransparency: 1;		/* default: 0 (additional darkness for member list can be changed in case a bright background makes the list hard to read)*/
+    --accentcolor: 220,20,60; 		/* default: 190,78,180 discord: 114,137,218 bd-blue: 58,113,193*/
+    --background: url("https://i.imgur.com/Sx44Gwp.png"); /* replace the link in url() with your own direct image link to change the background */
+    --backdrop: rgba(0,0,0,0.4);	/* default: rgba(0,0,0,0.4) can also be changed to an image like --background */
+    --backgroundblur: 0px;				/* default: 0px only works when --background is set to an image */
+	--popoutblur: 0px;					/* default: 0px only works when --background is set to an image */
+    --backdropblur: 0px;				/* default: 0px only works when --backdrop is set to an image *
+    /* DO NOT TOUCH ANYTHING BELOW THIS */
+    --version1_0_5:					none;
+    --backgroundsize: 				cover;
+    --popoutsize: 					cover;
+    --backdropsize: 				cover;
+}
