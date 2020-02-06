@@ -1061,8 +1061,8 @@ body:before {
 
 /* --- Trying to fix the shitty new text bar --- */
 .scrollableContainer-2NUZem {								/* textarea				container							*/
-	/* background-color: rgba(var(--vtransparencycolor), 0.3); */
-	background-color: rgba(0, 0, 0, 0.0);
+	background-color: rgba(var(--vtransparencycolor), 0.3);
+	/* background-color: rgba(0, 0, 0, 0.0); */
 }
 
 .attachButtonPlus-jWVFah {									/* textarea				attachbuttoninner					*/
