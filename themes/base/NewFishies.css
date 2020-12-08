@@ -574,6 +574,8 @@ body::before {
 .icon-2IuuZd,												/* voicechat			icon								*/
 .username-3KYl0N {											/* voicechat			username							*/
 	color: rgb(var(--fontwhite3));
+	font-weight: 700;
+	/* edit: Makes the username in the voice chat BOLD */
 }
 .listDefault-3ir5aS .clickable-1lCRLF:hover .username-3KYl0N {
 	color: rgb(var(--fontwhite2));
@@ -632,6 +634,8 @@ body::before {
 }
 .channel-2QD9_O .name-uJV0GL {
 	color: rgb(var(--fontwhite2));
+	font-weight: 700;
+	/* not edit but: makes online friends username's bold */
 }
 .channel-2QD9_O .subtext-1RtU34 {
 	color: rgb(var(--fontwhite3));
@@ -650,7 +654,8 @@ body::before {
 }
 
 .header-zu8eWb {
-	color: rgb(var(--fontwhite2));
+	/* color: rgb(var(--fontwhite2));  edit*/
+	color: rgb(0,255,0)
 }
 
 .empty-388osJ {												/* loadingplaceholders										*/
@@ -1463,6 +1468,8 @@ body::before {
 }
 .member-3-YXUe .name-uJV0GL {
 	color: rgb(var(--fontwhite2));
+	font-weight: 700;
+	/* edit: users in the memeber list */
 }
 .member-3-YXUe .activity-2Gy-9S {
 	color: rgb(var(--fontwhite3));
@@ -5598,6 +5605,8 @@ body::before {
 
 .username-3gJmXY {
 	color: rgb(var(--fontwhite1));
+	font-weight: 700;
+	/* edit: hopefully the username in the text channel */
 }
 .discriminator-uTZ08z {
 	color: rgb(var(--fontwhite3));
