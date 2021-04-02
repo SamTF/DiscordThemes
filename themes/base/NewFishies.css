@@ -950,8 +950,14 @@ body::before {
 	background-color: rgba(var(--vtransparencycolor), calc(var(--vmessagetransparency) * 0.8)) !important;
 }
 .message-2qnXI6.selected-2P5D_Z,
-.mouse-mode .message-2qnXI6:hover,
-.mouse-mode.full-motion .message-2qnXI6:hover,
+/* EDIT: Remove on hover message highlighting */
+.mouse-mode .message-2qnXI6:hover {
+    background-color: rgba(0,0,0,0);
+}
+/* EDIT: Remove on hover message highlighting */
+.mouse-mode.full-motion .message-2qnXI6:hover {
+    background-color: rgba(0,0,0,0);
+}
 .mouse-mode .wrapper-1F5TKx:hover,
 .mouse-mode.full-motion .wrapper-1F5TKx:hover {
 	background-color: rgba(var(--vtransparencycolor), calc(var(--vmessagetransparency) * 1.2 * var(--vusechatbubbles) + 0.3 * (1 - var(--vusechatbubbles)))) !important;
