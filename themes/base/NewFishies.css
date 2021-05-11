@@ -1,4 +1,4 @@
-/* life is hell*/
+/* is it over?*/
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
@@ -596,9 +596,10 @@ body::before {
 	color: rgb(var(--fontwhite1));
 }
 .name-23GUGE {												/* channel				name								*/
-	/* EDIT : Name of a voice and text channel */
+	/* EDIT : Name of a voice and text channel CHANNEL NAME AAAAAA*/
 	/* color: rgb(var(--fontwhite3)); */
-	color: rgb(170, 0, 170);
+	color: rgb(170, 170, 170);
+	font-weight: 500;
 }
 .modeMuted-onO3r- .name-23GUGE {
 	color: rgb(var(--fontwhite4));
