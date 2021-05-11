@@ -1,4 +1,4 @@
-/* WHY IS IT STILL BLUE ????????????????????????*/
+/* fixed?*/
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
@@ -598,7 +598,7 @@ body::before {
 .name-23GUGE {												/* channel				name								*/
 	/* EDIT : Name of a voice and text channel */
 	/* color: rgb(var(--fontwhite3)); */
-	color: rgb(255, 255, 255);
+	color: rgb(170, 170, 170);
 	font-weight: 700;
 }
 .modeMuted-onO3r- .name-23GUGE {
