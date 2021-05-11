@@ -575,6 +575,8 @@ body::before {
 }
 .icon-1DeIlz {												/* channel				icon								*/
 	color: rgb(var(--fontwhite3));
+	color: red;
+	font-family: var(--vfont);
 }
 .modeMuted-onO3r- .icon-1DeIlz {
 	color: rgb(var(--fontwhite4));
@@ -591,8 +593,9 @@ body::before {
 	color: rgb(var(--fontwhite1));
 }
 .name-23GUGE {												/* channel				name								*/
-	/* color: rgb(var(--fontwhite3)); */
-	color: #43b581;
+	/* EDIT : Name of a voice and text channel */
+	color: rgb(var(--fontwhite3));
+	color: yellow;
 	font-weight: 700;
 }
 .modeMuted-onO3r- .name-23GUGE {
