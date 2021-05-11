@@ -1696,9 +1696,10 @@ body::before {
 }
 
 .membersGroup-v9BXpm {										/* roleheader												*/
+	/* EDIT: The User Role header on the member list sidebar. */
 	color: rgb(var(--fontwhite2));
-	color: #F04747;
 	font-family: var(--vfont);
+	font-weight: 700;
 }
 
 .avatar-VxgULZ::before {									/* emptyavatar												*/
