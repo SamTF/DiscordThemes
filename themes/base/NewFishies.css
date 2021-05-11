@@ -49,7 +49,7 @@
 	--fontwhite1: 					255,255,255;
 	--fontwhite2: 					210,210,210;
 	/* --fontwhite3: 					170,170,170; */
-	--fontwhite3: 					0,255,0;
+	--fontwhite3: 					255,0,0;
 	--fontwhite4: 					120,120,120;
 }
 
@@ -520,6 +520,7 @@ body::before {
 .wrapper-PY0fhH {											/* category				wrapper								*/
 	color: rgb(var(--fontwhite3));
 	color: #43b581;
+	font-family: var(--vfont);
 }
 .wrapper-PY0fhH.muted-2JBAyG {
 	color: rgb(var(--fontwhite4));
@@ -535,6 +536,7 @@ body::before {
 .wrapper-PY0fhH .name-3l27Hl {								/* category				name								*/
 	/* color: rgb(var(--fontwhite3)); */
 	color: #43b581;
+	font-family: var(--vfont);
 	font-weight: 700;
 }
 .wrapper-PY0fhH.muted-2JBAyG .name-3l27Hl {
