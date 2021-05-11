@@ -1,4 +1,4 @@
-/* 0000 */
+/* 1111 */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
@@ -575,7 +575,8 @@ body::before {
 }
 .icon-1DeIlz {												/* channel				icon								*/
 	color: rgb(var(--fontwhite3));
-	color: red;
+	/* EDIT: this is the # icon next to the channel name, apparently it's not text... */
+	/* color: red; */
 	font-family: var(--vfont);
 }
 .modeMuted-onO3r- .icon-1DeIlz {
@@ -595,7 +596,6 @@ body::before {
 .name-23GUGE {												/* channel				name								*/
 	/* EDIT : Name of a voice and text channel */
 	color: rgb(var(--fontwhite3));
-	color: yellow;
 	font-weight: 700;
 }
 .modeMuted-onO3r- .name-23GUGE {
@@ -629,7 +629,6 @@ body::before {
 
 #app-mount .channelIcon-2xPHJh {							/* channelselect		icon								*/
 	color: rgb(var(--fontwhite3));
-	color: #43b581;
 }
 #app-mount .selected-2rGcKN .channelIcon-2xPHJh {
 	color: rgb(var(--fontwhite1));
