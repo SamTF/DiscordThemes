@@ -531,7 +531,9 @@ body::before {
 	color: rgb(var(--fontwhite1));
 }
 .wrapper-PY0fhH .name-3l27Hl {								/* category				name								*/
-	color: rgb(var(--fontwhite3));
+	/* color: rgb(var(--fontwhite3)); */
+	color: #43b581;
+	font-weight: 700;
 }
 .wrapper-PY0fhH.muted-2JBAyG .name-3l27Hl {
 	color: rgb(var(--fontwhite4));
@@ -578,7 +580,9 @@ body::before {
 	color: rgb(var(--fontwhite1));
 }
 .name-23GUGE {												/* channel				name								*/
-	color: rgb(var(--fontwhite3));
+	/* color: rgb(var(--fontwhite3)); */
+	color: #43b581;
+	font-weight: 700;
 }
 .modeMuted-onO3r- .name-23GUGE {
 	color: rgb(var(--fontwhite4));
@@ -611,6 +615,7 @@ body::before {
 
 #app-mount .channelIcon-2xPHJh {							/* channelselect		icon								*/
 	color: rgb(var(--fontwhite3));
+	color: #43b581;
 }
 #app-mount .selected-2rGcKN .channelIcon-2xPHJh {
 	color: rgb(var(--fontwhite1));
