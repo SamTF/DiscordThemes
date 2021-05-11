@@ -1,4 +1,4 @@
-/* fixed?*/
+/* fixed????*/
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
@@ -527,7 +527,7 @@ body::before {
 .wrapper-PY0fhH {											/* category				wrapper								*/
 	color: rgb(var(--fontwhite3));
 	/* EDIT: CATEGORY HEADER now uses the correct custom font */
-	color: rgb(255, 255, 255);
+	color: rgb(170, 170, 170);
 	font-family: var(--vfont);
 	font-weight: 700;
 }
@@ -578,7 +578,7 @@ body::before {
 .icon-1DeIlz {												/* channel				icon								*/
 	/* color: rgb(var(--fontwhite3)); */
 	/* EDIT: this is the # icon next to the channel name, apparently it's not text... */
-	color: whitesmoke;
+	color: rgb(170, 170, 170);
 	font-family: var(--vfont);
 }
 .modeMuted-onO3r- .icon-1DeIlz {
