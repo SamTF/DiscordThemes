@@ -52,10 +52,6 @@
 	--fontwhite2: 					210,210,210;
 	--fontwhite3: 					170,170,170;
 	--fontwhite4: 					120,120,120;
-	/* --fontwhite1: 					0,255,255;
-	--fontwhite2: 					210,0,210;
-	--fontwhite3: 					0,255,0;
-	--fontwhite4: 					255,0,0; */
 }
 
 .theme-light, .theme-dark {
@@ -597,7 +593,7 @@ body::before {
 }
 .name-23GUGE {												/* channel				name								*/
 	/* EDIT : Name of a voice and text channel CHANNEL NAME AAAAAA*/
-	color: rgb(170, 170, 170);
+	color: rgb(0, 170, 170);
 	color: rgb(var(--fontwhite3));
 	font-weight: 700;
 }
