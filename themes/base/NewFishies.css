@@ -574,9 +574,9 @@ body::before {
 	filter: drop-shadow(1px 1px var(--vtextshadow));
 }
 .icon-1DeIlz {												/* channel				icon								*/
-	color: rgb(var(--fontwhite3));
+	/* color: rgb(var(--fontwhite3)); */
 	/* EDIT: this is the # icon next to the channel name, apparently it's not text... */
-	color: rgb(170, 170, 170);
+	color: white;
 	font-family: var(--vfont);
 }
 .modeMuted-onO3r- .icon-1DeIlz {
@@ -595,8 +595,8 @@ body::before {
 }
 .name-23GUGE {												/* channel				name								*/
 	/* EDIT : Name of a voice and text channel */
-	color: rgb(var(--fontwhite3));
-	color: rgb(170, 170, 170);
+	/* color: rgb(var(--fontwhite3)); */
+	color:blue;
 	font-weight: 700;
 }
 .modeMuted-onO3r- .name-23GUGE {
