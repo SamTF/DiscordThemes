@@ -520,7 +520,7 @@ body::before {
 
 .wrapper-PY0fhH {											/* category				wrapper								*/
 	color: rgb(var(--fontwhite3));
-	/* color: #43b581; */
+	/* EDIT: CATEGORY HEADER now uses the correct custom font */
 	font-family: var(--vfont);
 	font-weight: 700;
 }
@@ -537,7 +537,7 @@ body::before {
 }
 .wrapper-PY0fhH .name-3l27Hl {								/* category				name								*/
 	color: rgb(var(--fontwhite3));
-	/* color: #43b581; */
+	/* EDIT: CATEGORY HEADER now uses the correct custom font */
 	font-family: var(--vfont);
 	font-weight: 700;
 }
