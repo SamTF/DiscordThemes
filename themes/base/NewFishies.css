@@ -48,10 +48,14 @@
 	--vbackdropsize:				var(--backdropsize,					var(--vbackgroundsize));
 	--vbackdropblur:				var(--backdropblur,					var(--vbackgroundblur));
 
-	--fontwhite1: 					255,255,255;
+	/* --fontwhite1: 					255,255,255;
 	--fontwhite2: 					210,210,210;
 	--fontwhite3: 					170,170,170;
-	--fontwhite4: 					120,120,120;
+	--fontwhite4: 					120,120,120; */
+	--fontwhite1: 					0,255,255;
+	--fontwhite2: 					210,0,210;
+	--fontwhite3: 					0,255,0;
+	--fontwhite4: 					255,0,0;
 }
 
 .theme-light, .theme-dark {
