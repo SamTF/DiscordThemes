@@ -520,8 +520,9 @@ body::before {
 
 .wrapper-PY0fhH {											/* category				wrapper								*/
 	color: rgb(var(--fontwhite3));
-	color: #43b581;
+	/* color: #43b581; */
 	font-family: var(--vfont);
+	font-weight: 700;
 }
 .wrapper-PY0fhH.muted-2JBAyG {
 	color: rgb(var(--fontwhite4));
@@ -535,8 +536,8 @@ body::before {
 	color: rgb(var(--fontwhite1));
 }
 .wrapper-PY0fhH .name-3l27Hl {								/* category				name								*/
-	/* color: rgb(var(--fontwhite3)); */
-	color: #43b581;
+	color: rgb(var(--fontwhite3));
+	/* color: #43b581; */
 	font-family: var(--vfont);
 	font-weight: 700;
 }
@@ -1692,6 +1693,8 @@ body::before {
 
 .membersGroup-v9BXpm {										/* roleheader												*/
 	color: rgb(var(--fontwhite2));
+	color: #F04747;
+	font-family: var(--vfont);
 }
 
 .avatar-VxgULZ::before {									/* emptyavatar												*/
