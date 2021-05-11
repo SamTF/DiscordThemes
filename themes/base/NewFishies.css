@@ -1,4 +1,4 @@
-/* done for now */
+/* WHY IS IT STILL BLUE ????????????????????????*/
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
@@ -598,7 +598,7 @@ body::before {
 .name-23GUGE {												/* channel				name								*/
 	/* EDIT : Name of a voice and text channel */
 	/* color: rgb(var(--fontwhite3)); */
-	color:whitesmoke;
+	color: rgb(255, 255, 255);
 	font-weight: 700;
 }
 .modeMuted-onO3r- .name-23GUGE {
@@ -2503,7 +2503,7 @@ body::before {
 .bd-social-link[title="BBD" i] .bd-social-logo,
 .bd-social-link[title="BandagedBD" i] .bd-social-logo {
 	background: rgb(var(--fontwhite3));
-	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/betterdiscord.svg) center/contain no-repeat;
+	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/betterdiscord.svg) center/contain no-repeat; /* EDIT: BetterDiscord logo, not sure where it's used */
 	opacity: 1;
 	transition: background .15s ease;
 }
