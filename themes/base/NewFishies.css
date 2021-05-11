@@ -1,4 +1,4 @@
-/* 2222 */
+/* done for now */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
@@ -470,6 +470,7 @@ body::before {
 .header-2V-4Sw,
 .bannerVisible-2ZE_qG .header-2V-4Sw {
 	color: rgb(var(--fontwhite1));
+	font-family: var(--vfont);
 }
 .clickable-25tGDB:not(.hasBanner-2SrLR3) .header-2V-4Sw:hover,
 .selected-31Nl7x:not(.hasBanner-2SrLR3) .header-2V-4Sw {
@@ -478,6 +479,7 @@ body::before {
 
 .channelNotice-1-XFjC {										/* notice				container							*/
 	box-shadow: inset 0 -1px 0 rgba(var(--fontwhite4), 0.3);
+	font-family: var(--vfont);
 }
 .channelNotice-1-XFjC.invite-OjTXrW,
 .channelNotice-1-XFjC.guildMFAWarning-3GEzs8,
@@ -576,7 +578,7 @@ body::before {
 .icon-1DeIlz {												/* channel				icon								*/
 	/* color: rgb(var(--fontwhite3)); */
 	/* EDIT: this is the # icon next to the channel name, apparently it's not text... */
-	color: white;
+	color: whitesmoke;
 	font-family: var(--vfont);
 }
 .modeMuted-onO3r- .icon-1DeIlz {
@@ -596,7 +598,7 @@ body::before {
 .name-23GUGE {												/* channel				name								*/
 	/* EDIT : Name of a voice and text channel */
 	/* color: rgb(var(--fontwhite3)); */
-	color:blue;
+	color:whitesmoke;
 	font-weight: 700;
 }
 .modeMuted-onO3r- .name-23GUGE {
