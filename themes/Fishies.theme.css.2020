@@ -1,0 +1,30 @@
+//META{"name":"Fishies","description":"A dark and lovely chill theme that's gonna make you wanna stare at discord all day","author":"me :)","version":"2.0"}*//
+
+@import url('https://samtf.github.io/DiscordThemes/themes/base/NewFishies.css');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+:root {
+	--transparencycolor:			0,0,0;
+	--transparencyalpha:			0.15;
+	--messagetransparency:			0;
+	--guildchanneltransparency:		0.75;
+	--memberlisttransparency:		0.0;
+	--accentcolor:					220,20,60;
+	
+	--font:							Quicksand;		/* font used in most places														*/
+	--textshadow:					transparent;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
+	
+	--background:					url("https://i.imgur.com/8M2Q5Uy.gif");
+	--backgroundsize:				cover;						/* default: cover				(sizefit of general background - values: [cover/contain/auto])					*/
+	--backgroundblur:				unset;						/* default: 0px					(only works when --background is set to an image)								*/
+	
+	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
+	--popoutsize:					var(--backgroundsize);		/* default: cover				(sizefit of popout background - values: [cover/contain/auto])					*/
+	--popoutblur:					var(--backgroundblur);		/* default: unset				(only works when --popout is set to an image)									*/
+	
+	--backdrop:						rgba(0,0,0,0.85);			/* default: rgba(0,0,0,0.85)	(change to use another background/color for backdrops)							*/
+	--backdropsize:					var(--backgroundsize);		/* default: cover				(sizefit of backdrop background - values: [cover/contain/auto])					*/
+	--backdropblur:					var(--backgroundblur);		/* default: unset				(only works when --backdrop is set to an image)									*/
+	
+	--version1_0_5:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE														*/
+}

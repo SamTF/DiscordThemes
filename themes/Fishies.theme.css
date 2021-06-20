@@ -1,25 +1,42 @@
-//META{"name":"Fishies","description":"A dark and lovely chill theme that's gonna make you wanna stare at discord all day","author":"me :)","version":"1.0"}*//
+/**
+ * @name Fishies
+ * @description A dark and lovely chill theme that's gonna make you wanna stare at discord all day
+ * @author Me :)
+ * @version 2.0.21
+ * @authorId 278543574059057154
+ */
 
-@import url('https://samtf.github.io/DiscordThemes/themes/base/BasicBackground.css');
+/* To change stuff like the colors, transparency and background image, change the variables inside the root {}, do NOT change the @import url() */
+
+@import url('https://samtf.github.io/DiscordThemes/themes/base/NewFishies.css');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 :root {
-	--customFont: 'Quicksand';
-    --transparencycolor: 0,0,0;		/* default: 0,0,0 */
-    --transparencyalpha: 0.15;		/* default: 0.15 */
-    --messagetransparency: 0.0;		/* default: 0.5 */
-    --guildchanneltransparency: 0.75;	/* default: 0.15 (additional darkness for guild/channel list can be changed in case a bright background makes the list hard to read) */
-    --memberlistransparency: 1;		/* default: 0 (additional darkness for member list can be changed in case a bright background makes the list hard to read)*/
-    --accentcolor: 220,20,60; 		/* default: 190,78,180 discord: 114,137,218 bd-blue: 58,113,193*/
-	/* --HomeButtonImg: url('https://i.imgur.com/FFH4UjT.png'); */
-    --background: url("https://i.imgur.com/8M2Q5Uy.gif"); /* https://imgur.com/xq2YsXN.gif */
-    --backdrop: rgba(0,0,0,0.4);	/* default: rgba(0,0,0,0.4) can also be changed to an image like --background */
-    --backgroundblur: 0px;				/* default: 0px only works when --background is set to an image */
-	--popoutblur: 0px;					/* default: 0px only works when --background is set to an image */
-    --backdropblur: 0px;				/* default: 0px only works when --backdrop is set to an image *
-    /* DO NOT TOUCH ANYTHING BELOW THIS */
-    --version1_0_5:					none;
-    --backgroundsize: 				cover;
-    --popoutsize: 					cover;
-    --backdropsize: 				cover;
+	--transparencycolor:			0,0,0;						/* default:	0,0,0																								*/
+	--transparencyalpha:			0.15;						/* default: 0.15				(general darkness of the app)													*/
+	--messagetransparency:			0.0;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
+	--guildchanneltransparency:		0.75;						/* default: 0.15				(additional darkness for guild/channel list)									*/
+	--memberlisttransparency:		0.0;						/* default: 0.0					(additional darkness for member list)											*/
+	--accentcolor:					220,20,60;					/* default: 190,78,180			(RGB-format - blurple: 114,137,218 bd-blue: 58,113,193)							*/
+	
+	--font:							Quicksand;		/* font used in most places														*/
+	--textshadow:					transparent;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
+	--settingsicons:				1;							/* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no											*/
+	
+	--background:					url("https://i.imgur.com/8M2Q5Uy.gif");	/* general background image				*/
+	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
+	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
+	--backgroundblur:				unset;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
+	
+	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
+	--popoutposition:				var(--backgroundposition);	/* default: center				(position of popout - values: [center/top/right/bottom/left])					*/
+	--popoutsize:					var(--backgroundsize);		/* default: cover				(sizefit of popout - values: [cover/contain/auto])								*/
+	--popoutblur:					var(--backgroundblur);		/* default: unset				(blur in px, only works when --popout is set to an image)						*/
+	
+	--backdrop:						rgba(0,0,0,0.85);			/* default: rgba(0,0,0,0.85)	(change to use another background/color for backdrops)							*/
+	--backdropposition:				var(--backgroundposition);	/* default: center				(position of backdrop - values: [center/top/right/bottom/left])					*/
+	--backdropsize:					var(--backgroundsize);		/* default: cover				(sizefit of backdrop - values: [cover/contain/auto])							*/
+	--backdropblur:					var(--backgroundblur);		/* default: unset				(blur in px, only works when --backdrop is set to an image)						*/
+	
+	--version1_0_5:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE														*/
 }
