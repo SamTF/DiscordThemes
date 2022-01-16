@@ -1,0 +1,9 @@
+/* Changes the Emoji Picker button to a custom icon */
+
+:root {
+    --emoji_icon: url("https://emotes.freelancepolice.org/images/Maxxer.png");
+}
+
+.sprite-2lxwfc {
+    content: var(--emoji_icon);
+}
