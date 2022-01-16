@@ -15,5 +15,5 @@
 
 /* Discord Logo Colour */
 .wordmarkWindows-2dq6rw > svg > g {
-    fill: rgb(var(--accentcolor));
+    fill: rgb(var(--logo_colour));
 }
