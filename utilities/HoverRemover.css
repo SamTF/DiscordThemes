@@ -1,0 +1,16 @@
+/* #### REMOVING HOVER EFFECTS FROM MESSAGES #### */
+
+/* Disable timestamp when hovering a message */
+.message-2CShn3 > .contents-2MsGLg > .timestamp-p1Df1m {
+    display: none;
+}
+
+/* Disable background darken when hovering a message */
+.message-2CShn3:not(.mentioned-Tre-dv):hover {
+    background-color: var(--background-primary) !important;
+}
+
+/* Disable background brighten when hovering a message with a mention */
+.mentioned-Tre-dv:hover {
+    background-color: var(--background-mentioned) !important;
+}
