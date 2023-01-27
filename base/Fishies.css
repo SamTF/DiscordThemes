@@ -93,6 +93,11 @@
 	background-color: transparent !important;
 }
 
+/* Making the chat textarea the right colour again by overriding other styles */
+.scrollableContainer-15eg7h {								/* textarea				container							*/
+	background-color: rgba(var(--transparencycolor), .3) !important;
+}
+
 
 /* //////////////////////////////////////////////////// */
 
@@ -1483,7 +1488,7 @@ body::after {
 }
 
 .scrollableContainer-15eg7h {								/* textarea				container							*/
-	background-color: rgba(var(--transparencycolor), .3);
+	background-color: rgba(var(--transparencycolor), .3) !important;
 }
 
 .sprite-2lxwfc {											/* textarea				emojibutton							*/
