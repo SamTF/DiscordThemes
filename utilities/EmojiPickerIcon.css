@@ -5,6 +5,6 @@
     /*--emoji_icon: none;                                                         /* set it to "none" to not replace the default emoji icon */
 }
 
-.sprite-2lxwfc {
+..spriteContainer__5b044 {
     content: var(--emoji_icon);
 }
