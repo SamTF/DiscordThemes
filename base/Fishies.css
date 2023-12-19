@@ -98,6 +98,10 @@
 	background-color: rgba(var(--transparencycolor), .3) !important;
 }
 
+/* Fixing the chat input field again */
+.themedBackground__6b1b6 {
+    background: none;
+}
 
 /* //////////////////////////////////////////////////// */
 
