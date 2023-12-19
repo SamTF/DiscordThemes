@@ -7,13 +7,12 @@
 }
 
 /* Discord Logo Icon */
-.wordmarkWindows-2dq6rw {
-    /* display: none; */
+.wordmarkWindows__05c46 {
     visibility: var(--logo_visibility);
     content: var(--logo_image);
 }
 
 /* Discord Logo Colour */
-.wordmarkWindows-2dq6rw > svg > g {
+.wordmarkWindows__05c46 > svg > g {
     fill: rgb(var(--logo_colour));
 }
