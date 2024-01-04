@@ -103,6 +103,22 @@
     background: none;
 }
 
+/* Remove background overlays */
+.app_de4237, .bg__12180 {
+    background-color: transparent;
+}
+
+/* Mentioned message colour */
+.mentioned__58017 {
+    position: relative;
+    /* background-color: var(--background-mentioned); */
+    background-color: #ff00631a;
+}
+.mentioned__58017:before {
+    /* background-color: var(--info-warning-foreground); */
+    background-color: #ff0063;
+}
+
 /* //////////////////////////////////////////////////// */
 
 
