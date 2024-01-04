@@ -103,6 +103,12 @@
     background: none;
 }
 
+/* Command menu */
+.autocomplete_df266d {
+    /* background-color: var(--transparencycolor) !important; */
+    background-color: rgba(var(--transparencycolor), 0.8) !important;
+}
+
 /* Remove background overlays */
 .app_de4237, .bg__12180 {
     background-color: transparent;
